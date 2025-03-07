@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container text-center mt-5">
+        <!-- Заголовок -->
+        <h1 class="display-4 mb-4">Кликер!</h1>
+
+        <!-- Количество кликов -->
+        <div class="card bg-light p-4 mb-4 rounded shadow">
+            <p class="h2">Количество кликов: <span class="text-primary">{{ current_user.clicks }}</span></p>
+        </div>
+
+        <!-- Кнопка для кликов -->
+        <a href="{{ url_for('click') }}" class="btn btn-primary btn-lg">
+            Кликни меня!
+        </a>
+    </div>
+{% endblock %}
