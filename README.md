@@ -1,1 +1,31 @@
-# flaskhostingprojectlesson9
+# Clicker App
+
+**Онлайн-демо**: [https://larisamalioris.pythonanywhere.com](https://larisamalioris.pythonanywhere.com)  
+**Тестовые данные**:  
+- Логин: `Kate`  
+- Пароль: `123`
+
+---
+
+## Описание
+Простое веб-приложение на Flask с функционалом:
+1. Регистрация и авторизация пользователей
+2. Счётчик кликов с сохранением прогресса
+3. Кнопка выхода из аккаунта
+
+---
+
+## Технологии
+- Python 3.8+
+- Flask [[7]]
+- Flask-Login (для управления сессиями) [[2]]
+- SQLite (хранение данных пользователей)
+- HTML/CSS (интерфейс)
+
+---
+
+## Установка и запуск
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ваш-репозиторий
+cd clicker-app
